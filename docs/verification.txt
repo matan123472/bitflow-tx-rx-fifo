@@ -1,0 +1,14 @@
+Verified 2026-11-24 with Icarus Verilog 13.0
+Command: make test
+
+vvp build/tb_fifo.vvp
+VCD info: dumpfile build/fifo.vcd opened for output.
+PASS FIFO: 1016 scoreboard cycles
+tb/tb_fifo.sv:44: $finish called at 10226000 (1ps)
+vvp build/tb_system.vvp
+VCD info: dumpfile build/system.vcd opened for output.
+PASS SYSTEM: 17 checks; serial baseline + word FIFO; restart verified
+tb/tb_system.sv:47: $finish called at 1390000 (1ps)
+vvp build/tb_serial.vvp
+PASS SERIAL: 25 checks; TX readiness and RX valid gaps
+tb/tb_serial.sv:39: $finish called at 1371000 (1ps)

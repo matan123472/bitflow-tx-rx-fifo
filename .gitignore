@@ -1,2 +1,8 @@
+build/
+*.vcd
+*.vvp
+work/
+transcript
+vsim.wlf
 .DS_Store
-Thumbs.db
+__pycache__/
